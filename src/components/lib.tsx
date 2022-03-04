@@ -16,12 +16,12 @@ export const Row = styled.div<{
   > * {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-    margin-right: ${(props) =>
+    margin-right: ${ (props) =>
       typeof props.gap === "number"
         ? props.gap + "rem"
         : props.gap
         ? "2rem"
-        : undefined};
+        : undefined };
   }
 `;
 // 类型守卫
@@ -60,7 +60,7 @@ export const ButtonNoPadding = styled(Button)`
   padding: 0;
 `;
 // padding 3.2 rem 的容器
-export const ScreenNoPadding = styled.div`
+export const ScreenContainer = styled.div`
   padding: 3.2rem;
   width: 100%;
   display: flex;

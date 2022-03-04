@@ -71,7 +71,6 @@ export const AuthenticatedApp = () => (
       <PageHeader />
       <Main>
         <Routes>
-          {/* <Route path={'/'} element={<ProjectListScreen />}></Route> */}
           <Route path={"/projects"} element={<ProjectListScreen />}></Route>
           <Route
             path={"/projects/:projectId/*"}
